@@ -1,0 +1,56 @@
+\documentclass[letterpaper]{ctexart}
+\usepackage{natbib,alifeconf}
+
+\title{我的论文}
+\author{黄世宇$^{1}$\\
+$^1$清华大学信息学院计算机科学与技术系 \\
+huangsy13@mails.tsinghua.edu.cn}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+这里是摘要
+\end{abstract}
+\renewcommand{\abstractname}{摘要}
+\section{Introduction}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Einstein paper \cite{Einstein}.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[width=2in]{lion.png}
+\caption{Sample picture caption.}
+\label{fig1}
+\end{center}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{table}[!hbt]
+\center{
+\begin{tabular}{|c|c|c|}\hline
+One & Two & Three\\ \hline\hline
+Yes & 0 & 1 \\
+Not  & 1 & 0 \\
+Maybe & 0.5 & 0.5 \\ \hline
+\end{tabular}
+}
+\vskip 0.25cm
+\caption{Sample table caption.}
+\end{table}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\footnotesize
+\bibliographystyle{apalike}
+\bibliography{sample}
+
+
+\end{document}

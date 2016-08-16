@@ -1,0 +1,84 @@
+\documentclass{aas}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{ccaption}
+\usepackage{booktabs} % 做三线表的上下两条粗线用
+
+\setcounter{page}{0}
+
+
+\begin{document}
+\cntitle{{\hei 我的论文标题}}
+
+\cnauthor{黄世宇$^{\scriptscriptstyle 1}$}
+
+\cnaddress{$^1$(清华大学计算机科学与技术系\quad 计32班 \quad 2013011304)}
+
+\email{huangsy13@mailsedu.cn}
+
+\cnabstract{摘要正文}
+\cnkeyword{关键字1， 关键字2，关键字3}
+
+
+\entitle{English Titil}
+\enauthor{Huang Shiyu$^{1}$}
+\enaddress{{\scriptsize$^1$}$($Computer Science and Technology, CST \quad Class 32 \quad 2013011304 $)$}
+
+\enabstract{ English Abstract}
+\enkeyword{Key Word1, Key Word2, Key Word3 }
+\maketitle
+%\tableofcontents
+\pagestyle{aasheadings}
+
+\section{第一部分}
+第一部分正文
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[width=2in]{lion.png}
+\caption{狮子}
+\label{fig1}
+\end{center}
+\end{figure}
+\section{第二部分}
+第二部分正文
+\begin{table}[!hbt]
+\center{
+\begin{tabular}{|c|c|c|}\hline
+菜单 & 第一列 & 第二列\\ \hline\hline
+第一 & 0 & 1 \\
+第二  & 1 & 0 \\
+第三 & 0.5 & 0.5 \\ \hline
+\end{tabular}
+}
+\vskip 0.25cm
+\caption{数据采集}
+\end{table}
+
+
+\par 继续正文\cite{1}
+
+\section{第三部分}
+
+段落一
+\par 段落二\cite{2}
+\par 段落三
+\par 段落四
+
+\section{小结}
+小结正文
+
+\begin{thebibliography}{10}
+\zihao{6}
+\addtolength{\itemsep}{-0.7em}
+\urlstyle{rm}
+\bibitem{1} 莫然 李世国. 云游戏——基于云计算技术的互动娱乐形式. 艺术与设计(理论) , 2011.8: 109-109.
+\bibitem{2} 常宁. 云游戏时代. 科技创业 , 2010.6: 40-40.
+\bibitem{3} 李斌. 中国大陆网速列世界第 90 位[J]. 共产党员: 下半月, 2012.3: 24-24.
+\bibitem{4} 百度百科， http://baike.baidu.com/view/1404481.htm
+\end{thebibliography}
+
+\end{document}
